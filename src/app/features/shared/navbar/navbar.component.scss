@@ -1,0 +1,17 @@
+.navbar {
+  position: static;
+  width: 100%;
+  text-shadow: -12px 10px 10px;
+  background-color: #76ead7;
+
+  .whiteNav {
+    color: #f7f7f7;
+    cursor: default;
+  }
+
+  .blackNav {
+    color: #201A23;
+    border: 10px;
+    cursor: default;
+  }
+}

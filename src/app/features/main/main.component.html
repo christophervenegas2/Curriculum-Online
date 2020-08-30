@@ -1,0 +1,33 @@
+<div class="container__main">
+  <div class="container__welcome"> Bienvenido al Curriculum Online de:
+    <div class="name">
+      Christopher Venegas
+    </div>
+  </div>
+  <div class="container__profile">
+    <div class="container__photo animate__animated animate__fadeInUp">
+      <ngb-carousel #carousel [interval]="1000" [pauseOnHover]="pauseOnHover">
+        <ng-template ngbSlide *ngFor="let img of images; index as i">
+          <div class="picsum-img-wrapper">
+            <img [src]="img" alt="My image {{i + 1}} description">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="container__links">
+      <div class="links">
+        <a href="https://github.com/christophervenegas2" class="btn btn-outline-secondary" target="_blank"> <img class="icon" src="https://cdn.icon-icons.com/icons2/509/PNG/512/Github_icon-icons.com_49946.png" alt="GitHub"> My GitHub</a>
+        <a href="https://gitlab.com/christophervenegas2" class="btn btn-outline-secondary" target="_blank"> <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/GitLab_Logo.svg/1200px-GitLab_Logo.svg.png" alt="GitLab"> My GitLab</a>
+        <a href="https://profile.codersrank.io/user/christophervenegas2" class="btn btn-outline-secondary" target="_blank"> <img class="icon" src="../../../assets/icons/coderank.png" alt="CodeRank"> My CodeRank</a>
+        <a href="https://www.linkedin.com/in/christopher-ivan-venegas-lizama-688bb81b0" class="btn btn-outline-secondary" target="_blank"> <img class="icon" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIn"> My LinkedIn</a>
+        <a href="https://www.twitch.tv/kerryreacciona" class="btn btn-outline-secondary" target="_blank"> <img class="icon" src="https://pngimg.com/uploads/twitch/twitch_PNG49.png" alt="GitHub"> My Twitch</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wave-container">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#76EAD7" fill-opacity="1" d="M0,224L48,224C96,224,192,224,288,213.3C384,203,480,181,576,160C672,139,768,117,864,106.7C960,96,1056,96,1152,90.7C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+</div>

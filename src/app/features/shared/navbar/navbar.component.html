@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="whiteNav navbar-brand" routerLink="main">Christopher Ivan Venegas Lizama</a>
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar = !toggleNavbar" data-toggle="collapse" data-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navigationbar" [ngbCollapse]="toggleNavbar">
+    <div class="navbar-nav">
+      <a class="blackNav navbar-brand" routerLink="main">Online Curriculum</a>
+      <li class="nav-item"><a class="nav-link" routerLink="main">Home </a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="main/info">About me </a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="main/experiences">Experience</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="main/certificates">Certificates</a></li>
+      <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+    </div>
+  </div>
+</nav>
