@@ -11,6 +11,7 @@ import { InfoComponent } from './features/info/info.component';
 import { ExperiencesComponent } from './features/experiences/experiences.component';
 import { CertificatesComponent } from './features/certificates/certificates.component';
 import { NavbarComponent } from './features/shared/navbar/navbar.component';
+import { LoginComponent } from './features/login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NavbarComponent } from './features/shared/navbar/navbar.component';
     InfoComponent,
     ExperiencesComponent,
     CertificatesComponent,
-    NavbarComponent
+    NavbarComponent,
+    LoginComponent
   ],
   imports: [
     NgbCollapseModule,
